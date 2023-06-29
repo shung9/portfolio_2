@@ -1,0 +1,393 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 5, 49);
+    background-image: url('./personagem.png');
+    background-size: 50%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.cabecalho{
+    text-align: center;
+}
+
+header .menu a {
+    text-decoration: none;
+    color: #929292;
+    font-size: 30px;
+    font-family:  helvetica, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    transition: font-size 0.3s;
+}
+header .menu a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-family:  helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.container {
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+
+.container2{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.container_boosters {
+    flex-basis: 50%;
+    justify-content: center;
+    float: right;
+    margin-right: 150px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  .container_personagem{
+    padding: 10px;
+    position: absolute;
+    margin-left: 700px;
+    top: 0px;
+    height: 200px;
+    width: 500px;
+    background-color: rgb(28, 28, 63);
+}
+
+.Habilidades_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+}
+.Habilidades_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+}
+.Habilidades_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+}
+.Habilidades_4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+}
+
+.retangulo1{
+    background-color: green;
+    border-radius: 5px;
+    height: 10px;
+    width: 45%;
+    border: 1px solid white;
+    margin-left: 30px;
+}
+.retangulo2{
+    background-color: green;
+    border-radius: 5px;
+    height: 10px;
+    width: 50%;
+    border: 1px solid white;
+    margin-left: 30px;
+}
+.retangulo3{
+    background-color: green;
+    border-radius: 5px;
+    height: 10px;
+    width: 40%;
+    border: 1px solid white;
+    margin-left: 30px;
+}
+.retangulo4{
+    background-color: green;
+    border-radius: 5px;
+    height: 10px;
+    width: 30%;
+    border: 1px solid white;
+    margin-left: 30px;
+}
+
+
+.h1_personagem{
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.nivel_personagem{
+    text-align: center;
+    margin-top: -30px;
+    color: white;
+}
+
+.backend{
+    display: inline-block;
+    color: white;
+    margin-left: 110px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+  
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 400px;
+    margin: 0px;
+  }
+  
+.square1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    background-image: url('/static/python.png');
+    background-size: 80%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    transition: border 0.1s;
+  }
+.square1:hover {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    background-image: url('/static/python.png');
+    background-size: 80%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+}
+
+.square2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    background-image: url('/static/sqlite3.png');
+    background-size: 80%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    transition: border 0.1s;
+}
+.square2:hover {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    background-image: url('/static/sqlite3.png');
+    background-size: 80%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+}
+
+.square3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    background-image: url('/static/flask.png');
+    background-size: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    transition: border 0.1s;
+}
+.square3:hover {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    background-image: url('/static/flask.png');
+    background-size: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+}
+
+.square4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    background-image: url('/static/html.png');
+    background-size: 90%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    transition: border 0.1s;
+}
+.square4:hover {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    background-image: url('/static/html.png');
+    background-size: 90%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+}
+
+.square5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    background-image: url('/static/css.png');
+    background-size: 80%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    transition: border 0.1s;
+}
+.square5:hover {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    background-image: url('/static/css.png');
+    background-size: 80%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+}
+
+.square6 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    background-image: url('/static/js.png');
+    background-size: 90%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    transition: border 0.1s;
+}
+.square6:hover {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    background-image: url('/static/js.png');
+    background-size: 90%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+}
+
+.sobre_personagem{
+    color: white;
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+}
+.square_sobre_personagem {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    color: white;
+    margin-left: 20px;
+    width: 400px;
+    height: 150px;
+    background-color: rgb(28, 28, 63);
+  }
+
+.habilidade_1{
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+}
+
+.circle1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    border-radius: 50px;
+    margin: 5px;
+    background-image: url('/static/ingles.png');
+    background-size: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    transition: border 0.1s;
+}
+.circle1:hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    border-radius: 50px;
+    margin: 5px;
+    background-image: url('/static/ingles.png');
+    background-size: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+}
+
+.circle2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    border-radius: 50px;
+    margin: 5px;
+    background-image: url('/static/bootstrap.png');
+    background-size: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    transition: border 0.1s;
+}
+.circle2:hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 28, 63);
+    border-radius: 50px;
+    margin: 5px;
+    background-image: url('/static/bootstrap.png');
+    background-size: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+}
+
+.boosters{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boosts_h1{
+    margin-left: 50px;
+}
+
+.border_section{
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+.button a {
+    color: #fff !important;
+    text-decoration: none !important;
+    border: 2px solid #5fe36a;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 1;
+    margin-left: 515px;
+  }
+  
+  .button a:hover {
+    background-color: #004105;
+    color: #fff !important; /* Altera a cor do texto ao passar o mouse */
+  }
+  
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+
