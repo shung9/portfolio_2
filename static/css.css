@@ -1,12 +1,24 @@
+/* defini o margin e o padding pra todos */
+/* 
+* {
+padding: 0;
+margin: 0;
+}
+*/
 body{
     padding: 0;
     margin: 0;
     background-color: rgb(0, 5, 49);
-    background-image: url('./personagem.png');
-    background-size: 50%;
+    background-image: url(personagem.png);
+    /* falta o width e height, o url('personagem.png' 
+    esta correto, usa url(personagem.png);
+    */
+    background-size: 50%; /* cover a imagem pega 100% */
     background-position: bottom center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /* usa cover em cima pra nao repetit a mesma coisa */
 }
+
+
 
 .cabecalho{
     text-align: center;
