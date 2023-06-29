@@ -7,6 +7,18 @@ body{
     background-position: bottom center;
     background-repeat: no-repeat;
 }
+/* 
+body {
+background: url(personagem.png);
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 100vh; ou height: 100%;
+
+para posicionar a imagem no center, sem repetição
+um z-index: 1; para colocar no fundo 
+}
+*/
 
 .cabecalho{
     text-align: center;
